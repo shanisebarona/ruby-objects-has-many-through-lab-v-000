@@ -13,6 +13,6 @@ class Patient
   end
   
   def doctors
-    
+    songs.map { |song| song.artist}
   end
 end
