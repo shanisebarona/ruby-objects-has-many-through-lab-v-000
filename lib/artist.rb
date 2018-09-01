@@ -10,9 +10,9 @@ class Artist
     @@all << self
   end
   
-  def new_song(self, name, genre)
+  def new_song(name, genre)
     binding.pry
-    Song.new(name, genre)
+    Song.new(name, self, genre)
   end
   
   def self.all
