@@ -13,6 +13,6 @@ class Patient
   end
   
   def doctors
-    appointments.map { |song| song.doctors}
+    appointments.map { |app| app.doctors}
   end
 end
