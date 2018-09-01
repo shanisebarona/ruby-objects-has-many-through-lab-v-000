@@ -23,7 +23,9 @@ class Artist
   end
   
   def genres 
-    
+    songs.map { |song| song.waiter
+    end
+  end
   end
   
 end
